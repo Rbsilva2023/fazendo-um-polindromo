@@ -11,10 +11,10 @@ function isPalindrome(Radar) {
             }
         }
         return true;
-    }
+}
     
-
 console.log(isPalindrome("Radar"));
+
 
 function arrayMaxMin(arr){
     if(arr.length === 0) {
