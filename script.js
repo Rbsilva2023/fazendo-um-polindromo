@@ -10,7 +10,9 @@ function isPalindrome(Radar) {
                 return false;
             }
         }
-        return true;
+        {
+          return true;
+                      }
 }
     
 console.log(isPalindrome("Radar"));
