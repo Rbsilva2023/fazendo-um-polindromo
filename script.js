@@ -27,16 +27,16 @@ function arrayMaxMin(arr){
         if (arr[contador] > nunMax) {
             nunMax = arr[contador];
         }
-        
-        if(arr[contador] < nunMin){
-             nunMin = arr[contador];
+        {
+            return nunMin;
         }
+    
         
     }
     
+    return `Máximo : ${nunMax}, Minimo: ${nunMin}`;
 }
 
-    return `Máximo : ${nunMax}, Minimo: ${nunMin}`;
 
 const arr = [1, 52, 59, 16, 13, 9];
 const resultado = arrayMaxMin(arr);
