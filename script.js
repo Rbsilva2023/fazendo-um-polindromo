@@ -27,8 +27,8 @@ function arrayMaxMin(arr){
 
     for ( let contador = 1; contador < arr.length; contador++){
 
-        if (arr[contador] < numMin) {
-            numMin = arr[contador];
+        if (arr[contador] < nunMin) {
+            nunMin = arr[contador];
         }
 
         if (arr[contador] > nunMax) {
