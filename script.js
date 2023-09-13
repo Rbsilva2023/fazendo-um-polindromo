@@ -12,10 +12,10 @@ function isPalindrome(Radar) {
         }
         {
           return true;
-                      }
+        }
 }
-    
-console.log(isPalindrome("Radar"));
+
+
 
 
 function arrayMaxMin(arr){
@@ -26,20 +26,16 @@ function arrayMaxMin(arr){
     let nunMin = arr[0];
 
     for ( let contador = 1; contador < arr.length; contador++){
+
+        if (arr[contador] < numMin) {
+            numMin = arr[contador];
+        }
+
         if (arr[contador] > nunMax) {
             nunMax = arr[contador];
         }
-        {
-            return nunMin;
-        }
     
-        
     }
     
-    return `Máximo : ${nunMax}, Minimo: ${nunMin}`;
+    return [nunMin, nunMax];
 }
-
-
-const arr = [1, 52, 59, 16, 13, 9];
-const resultado = arrayMaxMin(arr);
-console.log(resultado);
