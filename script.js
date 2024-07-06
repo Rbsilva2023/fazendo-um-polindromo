@@ -39,3 +39,4 @@ function arrayMaxMin(arr){
     
     return [nunMin, nunMax];
 }
+
